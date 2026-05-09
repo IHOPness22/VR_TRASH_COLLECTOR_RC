@@ -1,0 +1,10 @@
+# ninja log v5
+1	2568	1778360772800994369	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	622d25f083686acf
+2	2594	1778360772855661440	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	8810299bfa8f65ef
+3	2626	1778360772887762974	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	d946e9e481fa34fa
+5	2761	1778360773030373317	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	6b5d01d2eec5d76d
+1	2861	1778360773116694548	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	ceeae2421375df8b
+6	2995	1778360773267419555	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	b11a555405eaac32
+2	3182	1778360773458185054	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	9c1144d77cac1e08
+0	3305	1778360773579224985	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	dca0b9a5562e994c
+3305	3639	1778360773915508910	/Users/jacobescoto/Documents/GitHub/VR_TRASH_COLLECTOR_RC/VR_TRASH_COLLECTOR_RC/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/5o4y3p1w/obj/arm64-v8a/libgame.so	cec69354abde961d
