@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class VRCarMovement : MonoBehaviour
 {
@@ -33,11 +34,12 @@ public class VRCarMovement : MonoBehaviour
         // Only turn when moving, like an RC car
         if (Mathf.Abs(currentSpeed) > 0.1f)
         {
-            transform.Rotate(
-                0f,
-                steering * turnSpeed * Time.deltaTime,
-                0f
-            );
+            float turnAmount = steering *
+                   turnSpeed *
+                   (Mathf.Abs(currentSpeed) / maxSpeed) *
+                   Time.deltaTime;
+
+            transform.Rotate(0f, turnAmount, 0f);
         }
 
         // Move forward/backward
